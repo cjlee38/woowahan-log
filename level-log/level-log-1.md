@@ -20,9 +20,9 @@
 
 ## 방어적 복사
 
-- `Collections.unmodifiableList();` → 리스트를 수정하는 메소드
-- `new ArrayList<>();` → 참조를 끊어버림
-- `List.copyOf();` → 참조끊기 + 수정불가
+- `Collections.unmodifiableList();` → 리스트를 수정하는 메소드를 금지시킨다.
+- `new ArrayList<>();` → 새로운 참조를 갖는다.
+- `List.copyOf();` → 새로운 참조 + 수정 불가능
 
 ## 불변객체
 
